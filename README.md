@@ -9,4 +9,4 @@ In addition to basic functions, Libft includes the implementation of ft_printf f
 
 ### Built With
 
-* https://img.shields.io/badge/C-ffffff?style=for-the-badge&logo=Cplusplus&logoColor=2979ff
+* <img alt="C" src="https://img.shields.io/badge/C-ffffff?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
