@@ -1,4 +1,6 @@
-<img alt="Libft" src="https://img.shields.io/badge/LIBFT-42-blue">  <img alt="C-logo" src="https://img.shields.io/badge/C-cdcdcd?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
+<img alt="Libft" src="https://img.shields.io/badge/LIBFT-42-blue">
+
+<img alt="C-logo" src="https://img.shields.io/badge/C-cdcdcd?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
 
 
 ## ABOUT THE PROJECT
