@@ -14,7 +14,7 @@ In addition to basic functions, Libft includes the implementation of ft_printf f
 
 ## FUNCTIONS OF THE LIBRARY
 
-• [ft_isalpha](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isalpha.c)	&nbsp;&nbsp;&nbsp;		• [ft_toupper](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_toupper.c)
+• [ft_isalpha](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isalpha.c) | • [ft_toupper](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_toupper.c)
 
 • [ft_isdigit](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isdigit.c)			• [ft_tolower](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_tolower.c)
 
