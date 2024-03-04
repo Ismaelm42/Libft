@@ -84,21 +84,21 @@ In addition to basic functions, Libft includes the implementation of ft_printf f
 
 • [ft_lstnew](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstnew.c)
 
-• [ft_lstadd_front](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstadd_front.c)
+• [ft_lstadd_front](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstadd_front_bonus.c)
 
-• [ft_lstsize](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstsize.c)
+• [ft_lstsize](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstsize_bonus.c)
 
-• [ft_lstlast](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstlast.c)
+• [ft_lstlast](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstlast_bonus.c)
 
-• [ft_lstadd_back](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstadd_back.c)
+• [ft_lstadd_back](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstadd_back_bonus.c)
 
-• [ft_lstdelone](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstdelone.c)
+• [ft_lstdelone](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstdelone_bonus.c)
 
-• [ft_lstclear](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstclear.c)
+• [ft_lstclear](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstclear_bonus.c)
 
-• [ft_lstiter](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstiter.c)
+• [ft_lstiter](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstiter_bonus.c)
 
-• [ft_lstmap](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstmap.c)
+• [ft_lstmap](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstmap_bonus.c)
 
 • [ft_printf](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_printf.c)
 
