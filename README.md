@@ -106,6 +106,41 @@ In addition to basic functions, Libft includes the implementation of ft_printf f
 
 ## HOW TO USE IT?
 
+Clone the repository:
+
+Open your terminal and run the following command to clone the repository:
+
+```sh
+git clone git@github.com:Ismaelm42/Libft.git
+```
+
+Go into your local repository folder. The project uses a Makefile to manage the build.
+
+```sh
+make
+```
+
+The make command will compile the project and generate the libft.a library.
+
+Additional commands:
+
+```sh
+make re
+```
+
+Deletes and recompiles the project from scratch.
+
+```sh
+make clean
+```
+
+Removes object (.o) files generated during compilation.
+
+```sh
+make fclean
+```
+
+Removes object files and the library (.a).
 
 ## USAGE
 
