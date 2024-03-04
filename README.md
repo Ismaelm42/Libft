@@ -14,95 +14,95 @@ In addition to basic functions, this Libft version includes the implementation o
 
 ## FUNCTIONS OF THE LIBRARY
 
-• [ft_isalpha](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isalpha.c)
+• [ft_isalpha](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isalpha.c): Checks if a character is an alphabetical character.
 
-• [ft_isdigit](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isdigit.c)
+• [ft_isdigit](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isdigit.c): Checks if a character is a digit.
 
-• [ft_isalnum](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isalnum.c)
+• [ft_isalnum](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isalnum.c): Checks if a character is an alphanumeric character (either an alphabet or a digit).
 
-• [ft_isascii](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isascii.c)
+• [ft_isascii](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isascii.c): Checks if a character is a 7-bit ASCII character.
 
-• [ft_isprint](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isprint.c)
+• [ft_isprint](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_isprint.c): Checks if a character is a printable character (including space).
 
-• [ft_strlen](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strlen.c)
+• [ft_strlen](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strlen.c): Calculates the length of a string.
 
-• [ft_memset](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memset.c)
+• [ft_memset](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memset.c): Fills a block of memory with a specific value.
 
-• [ft_bzero](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_bzero.c)
+• [ft_bzero](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_bzero.c): Sets the first n bytes of the given memory area to zero.
 
-• [ft_memcpy](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memcpy.c)
+• [ft_memcpy](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memcpy.c): Copies n bytes from memory area src to memory area dest.
 
-• [ft_memmove](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memmove.c)
+• [ft_memmove](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memmove.c): Copies n bytes from memory area src to memory area dest, handling overlap.
 
-• [ft_strlcpy](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strlcpy.c)
+• [ft_strlcpy](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strlcpy.c): Copies a string to a specified size.
 
-• [ft_strlcat](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strlcat.c)
+• [ft_strlcat](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strlcat.c): Concatenates two strings with a specified size limit.
 
-• [ft_toupper](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_toupper.c)
+• [ft_toupper](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_toupper.c): Converts a lowercase letter to uppercase.
 
-• [ft_tolower](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_tolower.c)
+• [ft_tolower](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_tolower.c): Converts an uppercase letter to lowercase.
 
-• [ft_strchr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strchr.c)
+• [ft_strchr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strchr.c): Locates the first occurrence of a character in a string.
 
-• [ft_strrchr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strrchr.c)
+• [ft_strrchr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strrchr.c): Locates the last occurrence of a character in a string.
 
-• [ft_strncmp](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strncmp.c)
+• [ft_strncmp](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strncmp.c): Compares the first n characters of two strings.
 
-• [ft_memchr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memchr.c)
+• [ft_memchr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memchr.c): Locates the first occurrence of a byte in a memory block.
 
-• [ft_memcmp](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memcmp.c)
+• [ft_memcmp](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_memcmp.c): Compares two memory blocks up to a specified length.
 
-• [ft_strnstr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strnstr.c)
+• [ft_strnstr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strnstr.c): Locates a substring within a string with a specified length limit.
 
-• [ft_atoi](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_atoi.c)
+• [ft_atoi](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_atoi.c): Converts a string to an integer.
 
-• [ft_calloc](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_calloc.c)
+• [ft_calloc](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_calloc.c): Allocates memory for an array and initializes it with zeros.
 
-• [ft_strdup](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strdup.c)
+• [ft_strdup](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strdup.c): Duplicates a string.
 
-• [ft_substr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_substr.c)
+• [ft_substr](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_substr.c): Creates a substring from a given string.
 
-• [ft_strjoin](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strjoin.c)
+• [ft_strjoin](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strjoin.c): Concatenates two strings.
 
-• [ft_strtrim](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strtrim.c)
+• [ft_strtrim](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strtrim.c): Trims whitespace characters from the beginning and end of a string.
 
-• [ft_split](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_split.c)
+• [ft_split](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_split.c): Splits a string into an array of substrings based on a specified delimiter.
 
-• [ft_itoa](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_itoa.c)
+• [ft_itoa](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_itoa.c): Converts an integer to a string.
 
-• [ft_strmapi](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strmapi.c)
+• [ft_strmapi](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_strmapi.c): Applies a function to each character of a string.
 
-• [ft_striteri](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_striteri.c)
+• [ft_striteri](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_striteri.c): Applies a function to each character of a string with its index as an argument.
 
-• [ft_putchar_fd](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_putchar_fd.c)
+• [ft_putchar_fd](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_putchar_fd.c): Outputs a character to a specified file descriptor.
 
-• [ft_putstr_fd](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_putstr_fd.c)
+• [ft_putstr_fd](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_putstr_fd.c): Outputs a string to a specified file descriptor.
 
-• [ft_putendl_fd](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_putendl_fd.c)
+• [ft_putendl_fd](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_putendl_fd.c): Outputs a string followed by a newline to a specified file descriptor.
 
-• [ft_putnbr_fd](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_putnbr_fd.c)
+• [ft_putnbr_fd](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_putnbr_fd.c): Outputs an integer to a specified file descriptor.
 
-• [ft_lstnew](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstnew.c)
+• [ft_lstnew](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstnew.c): Creates a new list node.
 
-• [ft_lstadd_front](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstadd_front_bonus.c)
+• [ft_lstadd_front](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstadd_front_bonus.c): Adds a new node at the beginning of a list.
 
-• [ft_lstsize](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstsize_bonus.c)
+• [ft_lstsize](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstsize_bonus.c): Counts the number of elements in a list.
 
-• [ft_lstlast](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstlast_bonus.c)
+• [ft_lstlast](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstlast_bonus.c): Returns the last element of a list.
 
-• [ft_lstadd_back](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstadd_back_bonus.c)
+• [ft_lstadd_back](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstadd_back_bonus.c): Adds a new node at the end of a list.
 
-• [ft_lstdelone](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstdelone_bonus.c)
+• [ft_lstdelone](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstdelone_bonus.c): Deletes a node from a list without affecting the rest of the list.
 
-• [ft_lstclear](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstclear_bonus.c)
+• [ft_lstclear](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstclear_bonus.c): Deletes all elements of a list and frees their memory.
 
-• [ft_lstiter](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstiter_bonus.c)
+• [ft_lstiter](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstiter_bonus.c): Applies a function to each element of a list.
 
-• [ft_lstmap](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstmap_bonus.c)
+• [ft_lstmap](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_lstmap_bonus.c): Applies a function to each element of a list, creating a new list.
 
-• [ft_printf](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_printf.c)
+• [ft_printf](https://github.com/Ismaelm42/Libft/blob/main/libft/ft_printf.c): A formatted output function similar to the standard printf.
 
-• [get_next_line](https://github.com/Ismaelm42/Libft/blob/main/libft/get_next_line.c)
+• [get_next_line](https://github.com/Ismaelm42/Libft/blob/main/libft/get_next_line.c): Reads a line from a file descriptor.
 
 ## HOW TO USE IT?
 
