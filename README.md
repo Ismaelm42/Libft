@@ -1,4 +1,5 @@
 [!https://img.shields.io/badge/LIBFT-42-blue]
+<img alt="Static Badge" src="https://img.shields.io/badge/:badgeContent">
 
 
 ## Libft
