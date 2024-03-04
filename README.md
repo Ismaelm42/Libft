@@ -165,6 +165,4 @@ gcc my_program.c libft.a -o my_program
 [Linux Programmer's Manual](https://man7.org/linux/man-pages/dir_section_3.html)
 
 
-## BUILT WITH
-
-* <img alt="C-logo" src="https://img.shields.io/badge/C-cdcdcd?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
+## BUILT WITH <img alt="C-logo" src="https://img.shields.io/badge/C-cdcdcd?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
