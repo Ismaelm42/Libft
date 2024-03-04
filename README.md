@@ -1,4 +1,5 @@
-<img alt="Libft" src="https://img.shields.io/badge/LIBFT-42-blue">
+<img alt="Libft" src="https://img.shields.io/badge/LIBFT-42-blue">  <img alt="C-logo" src="https://img.shields.io/badge/C-cdcdcd?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
+
 
 ## ABOUT THE PROJECT
 
@@ -163,6 +164,3 @@ gcc my_program.c libft.a -o my_program
 [The GNU C Library Reference Manual](https://www.gnu.org/software/libc/manual/pdf/libc.pdf)
 
 [Linux Programmer's Manual](https://man7.org/linux/man-pages/dir_section_3.html)
-
-
-## BUILT WITH <img alt="C-logo" src="https://img.shields.io/badge/C-cdcdcd?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
