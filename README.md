@@ -10,7 +10,7 @@ Implementation of basic functions: The library contains custom implementations o
 
 Libft's functions serve as a foundation for future projects within the 42 curriculum. They provide a solid set of tools to tackle more advanced and complex tasks in subsequent projects.
 
-In addition to basic functions, Libft includes the implementation of ft_printf for output formatting and get_next_line for efficient reading of lines from files or standard input. These functions have been integrated to enable their direct use from the Libft library.
+In addition to basic functions, this Libft version includes the implementation of ft_printf for output formatting and get_next_line for efficient reading of lines from files or standard input. These functions have been integrated to enable their direct use from the Libft library.
 
 ## FUNCTIONS OF THE LIBRARY
 
