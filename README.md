@@ -121,9 +121,8 @@ make
 ```
 
 The make command will compile the project and generate the libft.a library.
- 
- 
- 
+
+<br>
 **Additional commands:**
 
 ```sh
