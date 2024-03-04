@@ -1,10 +1,5 @@
 <img alt="Libft" src="https://img.shields.io/badge/LIBFT-42-blue">
 
-## LANGUAGE
-
-<img alt="C-logo" src="https://img.shields.io/badge/C-cdcdcd?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
-
-
 ## ABOUT THE PROJECT
 
 The Libft project is a fundamental part of 42, aimed at providing a strong foundation in C programming.
@@ -162,6 +157,10 @@ When compiling your program, be sure to link it to the libft.a library:
 ```sh
 gcc my_program.c libft.a -o my_program
 ```
+
+## PROGRAMMING LANGUAGE
+
+<img alt="C-logo" src="https://img.shields.io/badge/C-cdcdcd?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
 
 ## ACKNOWLEDGMENTS
 
