@@ -1,4 +1,4 @@
-<img alt="Libft" src="https://img.shields.io/badge/LIBFT-42-blue">
+[<img alt="Libft" src="https://img.shields.io/badge/LIBFT-42-blue">](https://github.com/Ismaelm42/Libft)
 
 ## ABOUT THE PROJECT
 
