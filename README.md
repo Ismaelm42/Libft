@@ -146,6 +146,17 @@ Removes object files and the library (.a).
 
 ## USAGE
 
+After compiling the library, you can use it in your projects. Make sure that your source code file includes the corresponding header (libft.h). You can include it in your source code file as follows:
+
+```c
+#include "libft.h"
+```
+
+When compiling your program, be sure to link it to the libft.a library:
+
+```sh
+gcc my_program.c libft.a -o my_program
+```
 
 ### BUILT WITH
 
