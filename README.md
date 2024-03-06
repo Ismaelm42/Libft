@@ -156,6 +156,43 @@ When compiling your program, be sure to link it to the libft.a library:
 gcc my_program.c libft.a -o my_program
 ```
 
+This is a very simple test that you can use and compare with the original printf function if you are starting this project to test the output of your implementation:
+
+```c
+#include "ft_printf.h"
+
+int	main(void)
+{
+	char			c = 'a';
+	char			str[] = "Hello World!";
+	int				n = 12345;
+	unsigned int	u = -12345;
+	void			*ptr = str;
+
+	ft_printf("char c = %c\n", c);
+	ft_printf("char str[] = %s\n", str);
+	ft_printf("integer n = %i\n", n);
+	ft_printf("decimal n = %d\n", n);
+	ft_printf("unsigned u = %u\n", u);
+	ft_printf("void *ptr = %p\n", ptr);
+	ft_printf("hexa n = %x\n", n);
+	ft_printf("HEXA n = %X\n", n);
+}
+```
+
+The output should look something like this:
+
+```bash
+char c = a
+char str[] = Hello World!
+integer n = 12345
+decimal n = 12345
+unsigned u = 4294954951
+void *ptr = 0x7fffae04f5ab 
+hexa n = 3039
+HEXA n = 3039
+```
+
 ## PROGRAMMING LANGUAGE
 
 <img alt="C-logo" src="https://img.shields.io/badge/C-cdcdcd?style=for-the-badge&logo=Cplusplus&logoColor=2979ff">
