@@ -18,8 +18,9 @@
 
 # include <fcntl.h>
 # include <stdarg.h>
+# include <stdbool.h>
+# include <stdint.h>
 # include <stdlib.h>
-# include <stdio.h>
 # include <string.h>
 # include <unistd.h>
 
@@ -72,5 +73,7 @@ char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+int		ft_printf(char const *str, ...);
+char	*get_next_line(int fd);
 
 #endif
