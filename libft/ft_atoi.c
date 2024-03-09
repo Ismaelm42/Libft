@@ -1,39 +1,26 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: imoro-sa <imoro-sa@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/03 12:41:10 by imoro-sa          #+#    #+#             */
-/*   Updated: 2023/01/04 12:50:41 by imoro-sa         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
 
 int	ft_atoi(const char *str)
 {
 	int		i;
-	int		j;
-	int		k;
+	int		nbr;
+	int		sign;
 
 	i = 0;
-	j = 0;
-	k = 1;
-	while (str[i] == 32 || str[i] == 12 || str[i] == 10
-		|| str[i] == 13 || str[i] == 11 || str[i] == 9)
+	nbr = 0;
+	sign = 1;
+	while (str[i] == ' ' || (str[i] >= 9 && str[i] <= 13))
 		i++;
-	if (str[i] == 45 || str[i] == 43)
+	if (str[i] == '-' || str[i] == '+')
 	{
-		if (str[i] == 45)
-			k = -1;
+		if (str[i] == '-')
+			sign = -1;
 		i++;
 	}
-	while (str[i] > 47 && str[i] < 58)
+	while (str[i] >= '0' && str[i] <= '9')
 	{
-		j = j * 10 + str[i] - '0';
+		nbr = nbr * 10 + str[i] - '0';
 		i++;
 	}
-	return ((k * j));
+	return (nbr * sign);
 }

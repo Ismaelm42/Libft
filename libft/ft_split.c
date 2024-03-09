@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_split.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: imoro-sa <imoro-sa@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/12 16:18:39 by imoro-sa          #+#    #+#             */
-/*   Updated: 2023/01/05 17:06:36 by imoro-sa         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
 
 static int	ft_string_counter(char const *s, char c)
@@ -52,38 +40,35 @@ static size_t	ft_string_len(char const *s, char c, unsigned int start)
 	return (i);
 }
 
-void	ft_free(char **str, int n)
+void	ft_free(char **str)
 {
-	while (n > 0)
-	{
-		free (str[n - 1]);
-		n--;
-	}
+	int	i;
+
+	i = 0;
+	while (str[i] != NULL)
+		free (str[i++]);
 	free (str);
 }
 
 char	**ft_split(char const *s, char c)
 {
-	unsigned int	start;
+	unsigned int	pos;
 	int				n;
 	char			**str;
 
-	start = 0;
 	n = 0;
-	str = malloc(sizeof(char **) * (ft_string_counter(s, c) + 1));
+	pos = 0;
+	str = ft_calloc((ft_string_counter(s, c) + 1), sizeof(char *));
 	if (str == NULL)
 		return (NULL);
 	while (n < ft_string_counter(s, c))
 	{
-		start = ft_string_start(s, c, start);
-		str[n] = ft_substr(s, start, (size_t)ft_string_len(s, c, start));
+		pos = ft_string_start(s, c, pos);
+		str[n] = ft_substr(s, pos, (size_t)ft_string_len(s, c, pos));
 		if (str[n] == NULL)
-		{
-			ft_free(str, n);
-			return (NULL);
-		}
+			return (ft_free(str), NULL);
 		n++;
-		start = start + ft_string_len(s, c, start);
+		pos += ft_string_len(s, c, pos);
 	}
 	str[n] = 0;
 	return (str);

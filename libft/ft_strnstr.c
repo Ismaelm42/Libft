@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strnstr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: imoro-sa <imoro-sa@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/03 12:41:02 by imoro-sa          #+#    #+#             */
-/*   Updated: 2023/01/05 12:55:14 by imoro-sa         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
@@ -29,9 +17,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 			{
 				i++;
 				if (i == (size_t)ft_strlen(needle))
-				{
 					return ((char *)&haystack[j]);
-				}
 			}
 		}
 		j++;
